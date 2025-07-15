@@ -1,4 +1,4 @@
-// primitive 
+// (1)primitive 
 
 // 7 types : String, Number, Boolean, Null, Undefined, Symbol, BigInt
 
@@ -17,7 +17,7 @@ console.log(id == anotherId);
 const bigNumber = 51616554864651665n
 //when we put n at the end of number it will become bigIn
 
-//reference (non primitive)
+//(2)reference (non primitive)
 
 // Array, Object, Functions
 
@@ -39,4 +39,26 @@ console.log(typeof heros);
 console.log(typeof anotherId);
 
 
+//********************************************
 
+// Stack(primitive)=copy data, Heap(Non-primitive)=reference of original value
+
+let myYoutubename = "premyt"
+
+let anothername = myYoutubename
+anothername = "mintyt"
+
+console.log(anothername);
+console.log(myYoutubename);
+
+let user1 ={
+    email: "user@google.com",
+    upi: "user@ybl"
+}
+
+let user2 = user1
+
+user2.email = "prem@gmail.com"
+
+console.log(user1.email);
+console.log(user2.email);
