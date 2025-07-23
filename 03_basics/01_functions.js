@@ -42,5 +42,34 @@ function loginUserMessage(username){// username = "anand" ,argument is nothing t
 
 // console.log(loginUserMessage("prem"));
 // console.log(loginUserMessage(""));
-console.log(loginUserMessage());
+// console.log(loginUserMessage());
 
+function calculateCartPrice(val1, val2, ...num1){
+    return num1
+}
+
+// console.log(calculateCartPrice(200, 400, 500, 2000));
+//val1=200, val2=400, rest is in the ...num1.
+
+const user = {
+    username: "prem",
+    price: 199
+}
+
+function handleObject(anyobject){
+    console.log(`username is ${anyobject.username} and price is ${anyobject.price}`);
+}
+// handleObject(user)
+handleObject({
+    username: "anand",
+    price: 399
+})
+
+const myNewArray = [200, 400, 100, 600]
+
+function returnSecondValue(getArray){
+    return getArray[1]
+}
+
+console.log(returnSecondValue(myNewArray));
+//both ([200, 400, 500, 1000]) and myNewArrray are same.
