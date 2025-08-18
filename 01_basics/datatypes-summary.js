@@ -1,6 +1,6 @@
-// (1)primitive 
+// (1)primitive (pre-defined)
 
-// 7 types : String, Number, Boolean, Null, Undefined, Symbol, BigInt
+// 7 types : String, Number, Boolean, Null, Undefined, Symbol, BigInt......and many more
 
 const score = 100
 const scoreValue = 100.3
@@ -19,7 +19,7 @@ const bigNumber = 51616554864651665n
 
 //(2)reference (non primitive)
 
-// Array, Object, Functions
+// Array, Object, Functions,(),{},[]
 
 const heros = ["shaktiman","naagraj","doga"]
 let myObj = {
