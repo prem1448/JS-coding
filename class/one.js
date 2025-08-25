@@ -39,7 +39,8 @@ arr.forEach( (item) => {
 // map
 // arrow
 // foreach
-
+// filter
+// different between forEach and map
 
 
 
