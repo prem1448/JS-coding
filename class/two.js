@@ -53,11 +53,11 @@ function a(){
 a();
 
 //  difference betweeen parameter and argument 
-function sum(a, b){ //--->parameter
+function sum(a, b){ //--->parameter=function definition
     var total = a + b;
     console.log(total);
 }
-a = 5 //argument
+a = 5 //argument=function calling
 b = 6 //argument
 var sum = a+b;
 console.log(sum);
